@@ -1,0 +1,79 @@
+body{
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    background-image: url("bg2.jpg");
+    background-size: cover;
+    font-family: sans-serif;
+
+}
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,0.6);
+    padding: 5%;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.6);
+}
+img{
+    width: 30%;
+    height: 25%;
+    margin: 0 AUTO;
+    position: absolute;
+    top: -12%;
+    left: 33%;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
+    border-radius: 50%;
+}
+.box h2{
+    padding: 0%;
+    margin: 0 0 1.8em;
+    color:  #fff;
+    text-align: center;
+}
+.box .inputbox{
+    position: relative;
+}
+.box .inputbox input{
+    width: 90%;
+    padding:15px 0 ;
+    font-size: 14px;
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid white;
+    color: #fff;
+}
+.box .inputbox label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 10px;
+    color: #fff;
+    pointer-events: none;
+    transition: 0.25s;
+}
+.submit-btn{
+background: transparent;
+margin-top: 30px;
+font-size: 18px;
+border-radius: 10%;
+padding: 5px;
+color: #fff;
+border: transparent;
+margin-left: 2em;
+pointer-events: none;
+}
+.box .inputbox input:focus ~ label{
+        top: -10px;
+        font-size: 10px;
+     
+}
+input[type="text"]:focus ,input[type="password"]:focus{
+    width: 100%;
+    color: 
+}
+
