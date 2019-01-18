@@ -1,0 +1,99 @@
+html ,body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;  
+    overflow: hidden;
+}
+.container{
+    background: linear-gradient(-60deg, red,orange);
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    display: flex;
+    transform: skewY(-10deg);
+    transform-origin: bottom left;
+   
+}
+.body{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    display: flex;
+    color: black;
+    position: relative;
+    margin-top: 5%;
+    
+}
+.brand{
+    flex:1;
+    margin: 12px;
+    font-family: 'Pacifico', cursive;
+    font-weight: bold;
+    font-size: 32px;
+    margin-left: 7%;
+}
+.navi ul{
+    list-style-type:none;
+    margin: 12px;
+    font-family: 'Timmana', sans-serif;
+    margin-right: 100px;
+}
+.navi ul li{
+    display: inline;
+    padding: 10px;
+  
+}
+.main{
+    display: flex;
+    padding-top: 5%;
+    width: 100%;
+    height: 100%;
+    padding-top: 5%;
+   
+    
+}
+.left{
+    flex: 4;
+  position: relative;
+ 
+}
+.right{
+    flex: 4;
+    position: relative;
+    margin-left: 4%;
+   
+}
+@media  screen and (max-width: 700px){
+    .navi ul li{
+        display: inline;
+        padding: 5px;
+
+      
+    }
+    navi ul{
+        list-style-type:none;
+        margin: 5px;
+        font-family: 'Timmana', sans-serif;
+        margin-right: 50px;
+
+}
+}
+@media  screen and (max-width: 400px){
+    .navi ul li{
+        display: inline;
+        padding: 0px;
+
+      
+    }
+    navi ul{
+        list-style-type:none;
+        margin: 3px;
+        font-family: 'Timmana', sans-serif;
+        margin-right: 10px;
+
+}
+}
